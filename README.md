@@ -5,7 +5,7 @@ Operation Systems Lab Exercises
 p1 > pipe > p2 > FIFO > P3
 hello > > HELLO >  > HeLlo
 ```
-#Quic use
+#Quick use
 in linux terminal cd to project path:
 * first Run client program
 ```
