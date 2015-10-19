@@ -2,7 +2,7 @@
     Aouther : Mohammad Sharifi
     StuNo: 911122115
     Mon - 19 Oct 2015
-    git repo:
+    git repo: https://github.com/mmdsharifi/OSLab
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,6 +26,7 @@ int main(void)
 
     printf("P1:Enter a word  :\n");
     scanf("%s", string );
+    // int , int
     pipe(fd);
 
     if ((childpid = fork()) == -1 ) {
@@ -86,5 +87,8 @@ int main(void)
 
  #FIFO
  =======================
-
+ sth like pipe but
+    * have special file in the file system
+    * When all I/O is done by sharing processes, the named pipe remains in the file system
+      for later use.
 */
