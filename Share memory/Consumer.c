@@ -67,7 +67,7 @@ int main(){
             thread client8(Read);
             thread client9(Read);
             thread client10(Read);
-            client1.join();
+            client1.join(); 
             client2.join();
             client3.join();
             client4.join();
